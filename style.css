@@ -1,0 +1,27 @@
+.nav-container {
+    box-sizing: border-box;
+    padding: 14px 15px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.mg-glass {
+    height: 30px;
+    margin-bottom: 9px;
+}
+
+.main-image img {
+    height: 600px;
+    width: 100%;
+    position: relative
+}
+
+.search-area {
+    background-color: black;
+    height: 82px;
+}
