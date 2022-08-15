@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .nav-container {
     box-sizing: border-box;
     padding: 14px 15px;
@@ -18,10 +22,42 @@
 .main-image img {
     height: 600px;
     width: 100%;
-    position: relative
+    /* position: relative; */
+    background-color: black;
+    object-fit: cover;
+    display: block;
+    height: 100%;
 }
 
-.search-area {
+.search-area-container {
     background-color: black;
-    height: 82px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.search-area-container p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.search input {
+    height: 35px;
+    width: 200px;
+
+}
+
+.search img {
+    height: 39px;
+    width: 30px;
 }
