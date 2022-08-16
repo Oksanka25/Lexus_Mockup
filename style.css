@@ -172,6 +172,10 @@ hr {
     font-size: 13px;
 }
 
+.lexus-item:hover {
+    font-weight: bolder;
+}
+
 
 .future-vehicles-list {
     /* display: grid;
