@@ -62,9 +62,13 @@ body {
     width: 30px;
 }
 
+h3 {
+    letter-spacing: 0.3em;
+}
+
 .shopping-tools-icons {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 30%;
@@ -72,7 +76,8 @@ body {
 
 }
 
-.shopping-tools h3 {
+.shopping-tools h3,
+h3 {
     margin: 50px;
     text-align: center;
     letter-spacing: 0.3em;
@@ -98,4 +103,48 @@ a {
     font-size: 15px;
     color: black;
     text-decoration: underline black;
+}
+
+.offers-p {
+    padding-left: 20px;
+}
+
+hr {
+    margin: 20px;
+}
+
+.current-offers {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer-box {
+    background-color: white;
+    border: 0.2px solid aliceblue;
+    width: 370px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.car {
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+}
+
+.car:hover {
+    transform: scale(1.2);
+}
+
+.offer-box button {
+    background-color: white;
+    padding: 15px 28px;
+}
+
+.offer-info h3 {
+    font-size: 100%;
 }
